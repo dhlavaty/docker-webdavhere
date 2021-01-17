@@ -18,13 +18,11 @@ $ docker run --rm -it -p 80:80 -v "${PWD}:/srv/data/share" dhlavaty/webdavhere
 
 And now, from Windows, you can browse to the WebDAV share in File Explorer by a UNC path: `\\192.168.100.41@80\share`:
 
-![doc/webdav-on-windows.png](doc/webdav-on-windows.png)
+![https://raw.githubusercontent.com/dhlavaty/docker-webdavhere/main/doc/webdav-on-windows.png](https://raw.githubusercontent.com/dhlavaty/docker-webdavhere/main/doc/webdav-on-windows.png)
 
 On a Mac, you can `Connect to Server [CMD+K]` directly from Finder. Use address `http://192.168.100.41/share`:
 
 ![https://raw.githubusercontent.com/dhlavaty/docker-webdavhere/main/doc/webdav-on-mac.png](https://raw.githubusercontent.com/dhlavaty/docker-webdavhere/main/doc/webdav-on-mac.png)
-
-![doc/webdav-on-mac.png](doc/webdav-on-mac.png)
 
 ## Convenient usage using alias
 
